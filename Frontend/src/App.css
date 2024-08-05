@@ -1,0 +1,676 @@
+.app{
+  margin: 0px;
+  padding: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-optical-sizing: auto;
+  /* background-color: #e7dad031; */
+ 
+}
+h6{
+  display: inline;
+}
+
+
+.navimg{
+  width: 100px;
+  height: 90px;
+}
+.callnav{
+  border-right: 2px solid white;
+  padding: 5px;
+  
+}
+
+
+.search-product-box {
+  width: 50px;
+}
+
+.searchnav{
+  width: 100%;
+}
+
+
+.containerhome {
+  background-color: RED;
+}
+.btnclass{
+ color: black;
+ background-color: white;
+}
+.btnclass:hover{
+  color: black;
+  background-color: white;
+}
+.relatedspro{
+  border-bottom: 2px solid orange;
+  border-width: 10%;
+}
+.addinput{
+  width: 30%;
+}
+
+/* ##### Navbar ##### */
+.navfirst{
+  background-color: RED;
+}
+
+/* .navicon{
+  background-color: blue;
+} */
+.navserch{
+  background-color: white;
+}
+.navserch:hover{
+  background-color: white;
+}
+
+.navcolor1{
+  font-weight: bold;
+  /* color: rgb(170, 16, 162); */
+  color: black; 
+  font-size: 1.1rem;
+}
+.navcolor1:hover{
+  
+  color: black;
+}
+.navcolor{
+  color: black;
+}
+.navcolor:hover{
+  color: black;
+}
+.carticon{
+  color: 2px solid black;
+}
+/* .navbtn{
+  background-color: RED;
+} */
+
+/* ##### Home ##### */
+.dropdown-menu li {
+  position: relative;
+  }
+  .dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+  }
+  .dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+  }
+  .dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+  }
+  .category{
+    color: rgb(168, 23, 23);
+    
+  }
+  .about{
+    margin-left: 7%;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  .abouttext{
+    font-size: 14px;
+  }
+  .aboutbtn{
+    width: 20%;
+    box-shadow: 5px 3px 2px rgb(0, 183, 255);
+  }
+  .abtcolor{
+    background-color: rgb(16, 16, 170);
+  }
+  .abtcolor h6{
+    font-weight: bold;
+  }
+  .abtcolor .col{
+    border-right: 1px solid rgba(0, 0, 0, 0.288);
+  }
+  .abtcolor h6 i{
+    width: 30px;
+  }
+  .truck{
+    width: 200px;
+  }
+  .category{
+    margin-left: 7%;
+
+    font-weight: bold;
+  }
+ .catimg{
+  transition: transform .2s;
+  box-shadow: 5px 10px 10px rgb(48, 45, 45);
+ }
+ .catimg:hover{
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+ }
+ .cardheight{
+  height: 510px;
+ }
+ .product{
+  margin-left: 7%;
+  border-bottom: 2px solid black;
+  font-weight: bold;
+  
+ }
+
+ .catimg1{
+  transition: transform .2s;
+  border: 5px solid rgb(219, 50, 50);
+  background-color: rgb(219, 50, 50)
+ }
+ .catimg1:hover{
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+  
+ }
+ .catimg1 .card-body{
+  background-color: rgb(219, 50, 50);
+  border: 1px solid rgb(219, 50, 50);
+ }
+ .cattext{
+  font-size: 30px;
+ }
+ .proimg{
+  transition: transform .2s;
+  border: 5px solid rgb(219, 50, 50);
+ }
+ .proimg:hover{
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+  
+ }
+ .proimg .card-body{
+  background-color: rgb(219, 50, 50);
+ }
+ .proname{
+  text-decoration: none;
+  
+ }
+ 
+ /* ######### About Us ########### */
+/* .colborder{
+  border: 2px solid rgb(167, 167, 228);
+  box-shadow: 2px 2px 5px purple;
+} */
+.bgcolor{
+  background-color: rgb(204, 222, 241);
+}
+.imghov{
+  cursor: pointer;
+}
+.imghov:hover{
+  box-shadow: 2px 2px 2px rgb(133, 133, 243);
+}
+
+
+/* ######## Best_Seller ###### */
+
+.filter{
+  width: 50%;
+  background-color: rgb(9, 9, 85);
+}
+
+.filterlogin {
+  text-decoration: none;
+  color: black
+}
+.sellername{
+  text-decoration: none;
+}
+.sellimg{
+  transition: transform .2s;
+  border: 5px solid rgb(219, 50, 50);
+ }
+ .sellimg:hover{
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+  
+ }
+ .sellimg .card-body{
+  background-color: rgb(219, 50, 50);
+ }
+ .sellselect{
+  float: right;
+ }
+
+ /* ####### Footer ####### */
+ .footerpage{
+  text-decoration: none;
+ }
+
+
+ /* ###### Plastic Pan ###### */
+ .linkmenu{
+  text-decoration: none;
+  color: black;
+ }
+ .pen p{
+  display: inline-block;
+  padding: 20px;
+ }
+ .rating  span{
+  color: rgb(255, 204, 0);
+ }
+ .btn-primary{
+  background-color: rgb(255, 204, 0);
+  color: black;
+ }
+.img-large{
+  max-width: 100%;
+  height: 500px;
+}
+.img-thumbnail{
+  height: 80px;
+}
+
+.small-container{
+  max-width: 600px;
+}
+ /* #########temp Css#### */
+ .products{
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+ }
+ 
+ .product img{
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+ }
+
+ .frostedMug img{
+  width: 100%;
+  
+  height: 300px;
+ }
+
+ .product-info{
+  padding: 1rem;
+ }
+ 
+
+
+
+ /* ###### T-Shirts ##### */
+ .login{
+  text-decoration: none;
+  color: rgb(9, 9, 85);
+ }
+ .likebtn{
+  border: 1px solid rgba(0, 0, 0, 0.021);
+ }
+ .likebtn:hover{
+  border: 1px solid rgba(22, 21, 21, 0);
+ }
+ .quantity{
+  width: 30%;
+ }
+ .addcart{
+  width: 50%;
+ }
+
+ .addcart1{
+  width: 100%;
+ }
+
+
+
+ /* ###### Review ####### */
+ 
+ /* App.css */
+
+.home {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.post {
+	border: 1px solid #ddd;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+.post h3 {
+	color: #333;
+}
+
+.post p {
+	color: #555;
+}
+
+/* mousepad */
+
+.cardimg{
+  height: 250px;
+}
+
+/* App.css */
+
+.create-post {
+	max-width: 600px;
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-post h2 {
+	color: #333;
+}
+
+.create-post input,
+.create-post textarea {
+	width: 100%;
+	margin: 10px 0;
+	padding: 10px;
+}
+
+.create-post button {
+	background-color: #4caf50;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+	cursor: pointer;
+}
+
+.comment-input {
+	margin-top: 10px;
+	padding: 8px;
+	width: 70%;
+}
+
+.comment-button {
+	background-color: #4caf50;
+	color: #fff;
+	padding: 8px 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.post img,
+.post video {
+	max-width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+
+.post button {
+	background-color: #4caf50;
+	color: #fff;
+	padding: 8px 16px;
+	border: none;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.post ul {
+	list-style: none;
+	padding: 0;
+}
+
+.post li {
+	margin-bottom: 5px;
+}
+
+.comment-input {
+	margin-top: 10px;
+	padding: 8px;
+	width: 70%;
+}
+
+.comment-button {
+	background-color: #4caf50;
+	color: #fff;
+	padding: 8px 16px;
+	border: none;
+	cursor: pointer;
+}
+
+
+/* #### Review #### */
+
+.data {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.review {
+	background-color: #333;
+	padding: 10px;
+}
+
+.review ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.review li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.review a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.review a:hover {
+	color: #4caf50;
+}
+
+.create-post,
+.home {
+	border: 1px solid #ddd;
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.home h2,
+.create-post h2 {
+	color: #333;
+}
+
+.home .post,
+.create-post {
+	margin-bottom: 30px;
+}
+
+.home .post button,
+.create-post button {
+	background-color: #4caf50;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+	cursor: pointer;
+}
+
+.home .post button:hover,
+.create-post button:hover {
+	background-color: #45a049;
+}
+
+/* #### start rating #### */
+
+.rating{
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+ /* min-height: 100vh; */
+}
+
+
+.rating input[type="radio"]{
+    display: none;
+}
+
+.star{
+  cursor: pointer;
+  transition: color 200ms;
+}
+
+/* ########### Checkout Stepx ############ */
+.checkout-steps > div{
+  border-bottom: 2.0rem solid #a0a0a0;
+  color: #a0a0a0;
+}
+.checkout-steps > active{
+  border-bottom: 2.0rem solid rgb(204, 137, 13);
+  color: rgb(204, 137, 13);
+}
+
+.cardhover{
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+  height: 95%;
+  width: 87%;
+}
+
+.cardhover:hover{
+
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  transform: scale(1.05);
+}
+
+.cardhoverhold{
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+  height: 100%;
+  width: 87%;
+}
+
+.cardhoverhold:hover{
+
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  transform: scale(1.05);
+}
+
+.noteDir{
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+  height: 470px;
+  width: 21rem;
+}
+
+.noteDir:hover{
+
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  transform: scale(1.05);
+}
+
+.cardmouse{
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+  height: 400px;
+  width: 20rem;
+}
+
+.cardmouse:hover{
+
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  transform: scale(1.05);
+}
+
+.cardoval{
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+  height: 470px;
+  width: 25rem;
+}
+
+.cardoval:hover{
+
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  transform: scale(1.05);
+}
+
+.skitcardhover{
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+  height: 430px;
+  width: 18rem;
+}
+.skitcardhover:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  transform: scale(1.05);
+}
+
+/* ######### Signin Form ########### */
+
+.gradient-custom-2{
+  background:linear-gradient(to right,  #8ca8b6,#ee7724, #d8363a, #dd3675, #b44593);
+}
+
+/* ##### Sipper ########## */
+.txtdco{
+  text-decoration: none;
+}
+
+.inlineclass StarRating{
+  display: inline-block;
+}
+
+/* footer Page */
+.footer {
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* background-color: rgba(43, 39, 39, 0.938); */
+  /* color: white; */
+  text-align: center;
+ }
+.feedback{
+  text-decoration: none;
+  color: rgb(39, 38, 38);
+}
+.icon{
+  width: 5%;
+  height: 80%;
+}
+.line{
+  width: 100%;
+  color: #eb6e16;
+  border-width: 3px;
+}
+/* Profile Screen */
+.profile{
+  border: 2px solid black;
+}
+
+.progress {
+  height: 20px;
+}
+
+.progress-bar {
+  background-color: #007bff;
+  text-align: center;
+  color: rgb(61, 10, 10);
+}
+.box{
+  border: 1px solid rgb(228, 223, 223);
+  box-shadow: 5px 5px 5px rgb(228, 223, 223);
+  padding-left: 5px;
+}
+
+.categorybag{
+  color: #1a44b6;
+  text-shadow: 5px 5px 10px gray;
+}
+
